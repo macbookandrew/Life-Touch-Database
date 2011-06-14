@@ -89,7 +89,7 @@
  *   $db_url = 'mysqli://username:password@localhost/databasename';
  *   $db_url = 'pgsql://username:password@localhost/databasename';
  */
-$db_url = 'mysqli://root:@localhost/life-touch';
+$db_url = 'mysqli://minimin1_LifeTou:MyCtwqUrTwrGaZGL@localhost/minimin1_LifeTouch';
 $db_prefix = '';
 
 /**
