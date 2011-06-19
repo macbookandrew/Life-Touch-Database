@@ -25,7 +25,7 @@
     <?php if ($links): ?> 
       <div class="links"> <?php print $links; ?></div>
     <?php endif; ?>
-    <?php print "test"; ?>
+    <?php #print "test"; ?>
 
   </div> <!-- /node-inner -->
 </div> <!-- /node-->
