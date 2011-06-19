@@ -19,6 +19,7 @@
     <link rel="icon" href="SHL-icon32x32.png" sizes="32x32"/>
     <link rel="icon" href="SHL-icon48x48.png" sizes="48x48"/>
     <link rel="apple-touch-startup-image" href="/startup.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
   </head>
 
