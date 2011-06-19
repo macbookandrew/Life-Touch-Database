@@ -218,14 +218,14 @@ function lt_student_nodeapi(&$node, $op, $teaser = NULL, $a4  = NULL) {
     $node->content["field_phone_home"]["field"]["items"][0]["#item"]["safe"] = $node->field_phone_home_area[0]["value"] . "-" . $node->field_phone_home[0]["value"];
   }
   elseif ($node->field_phone_home[0]["value"]) {
-    $node->content["field_phone_home"]["field"]["items"][0]["#item"]["safe"] = "661-" . $node->field_phone_home[0]["value"];
+    $node->content["field_phone_home"]["field"]["items"][0]["#item"]["safe"] =  $node->field_phone_home[0]["value"];
   }
   
   if ($node->field_phone_mobile_area[0]["value"]) {
     $node->content["field_phone_mobile"]["field"]["items"][0]["#item"]["safe"] = $node->field_phone_mobile_area[0]["value"] . "-" . $node->field_phone_mobile[0]["value"];
   }
   elseif ($node->field_phone_mobile[0]["value"]) {
-    $node->content["field_phone_mobile"]["field"]["items"][0]["#item"]["safe"] = "661-" . $node->field_phone_mobile[0]["value"];
+    $node->content["field_phone_mobile"]["field"]["items"][0]["#item"]["safe"] = $node->field_phone_mobile[0]["value"];
   }
     //add a set of action links
 	if (!$teaser) {

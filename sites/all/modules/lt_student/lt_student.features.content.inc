@@ -227,7 +227,7 @@ function lt_student_content_default_fields() {
       'size' => '12',
       'default_value' => array(
         '0' => array(
-          'value' => 'Lancaster',
+          'value' => 'Shelby',
           '_error_element' => 'default_value_widget][field_city][0][value',
         ),
       ),
@@ -1480,7 +1480,7 @@ Unknown',
       'size' => '3',
       'default_value' => array(
         '0' => array(
-          'value' => 'CA',
+          'value' => 'NC',
           '_error_element' => 'default_value_widget][field_state][0][value',
         ),
       ),
@@ -1704,7 +1704,7 @@ Inactive',
       'size' => '5',
       'default_value' => array(
         '0' => array(
-          'value' => '',
+          'value' => '28150',
           '_error_element' => 'default_value_widget][field_zip][0][value',
         ),
       ),
