@@ -153,6 +153,50 @@
         </div> <!-- /footer -->
       <?php endif; ?>
 
+      <!-- ______________________ bottom header _______________________ -->
+    <div id="header-bottom">
+	  <?php if (!empty($site_name) || !empty($site_slogan) || !empty($logo)): ?>
+	    <div id="name-and-slogan">
+	     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
+         </a>
+         <h1 id="site-name">
+          <a href="<?php print $front_page ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+         </h1>
+         <div id="site-slogan"><?php print $site_slogan; ?></div>
+        </div> <!-- /name-and-slogan -->
+	  <?php endif; ?>
+    
+    <?php if (isset($_GET['destination']) && strstr($body_classes,'section-node-edit')): ?>
+	    <a id="homelink" class="back" href="/<?php print $_GET['destination'] ?>" title="<?php print t('Home'); ?>" rel="home"><span>Back</span></a>
+    <?php elseif (isset($_GET['destination'])): ?>
+	    <a id="homelink" href="/<?php print $_GET['destination'] ?>" title="<?php print t('Home'); ?>" rel="home"><span>Cancel</span></a>
+	  <?php elseif (!$title && !strstr($body_classes,'section-node-edit')): ?>
+	    <a id="homelink" class="back" href="<?php print $front_page ?>" title="<?php print t('Home'); ?>" rel="home"><span>Back</span></a>
+    <?php elseif (!strstr($body_classes,'section-node-add') && !strstr($body_classes,'section-node-edit')): ?>
+      <a id="homelink" href="<?php print $front_page ?>" title="<?php print t('Home'); ?>" rel="home"><span>Home</span></a>
+    <?php elseif (!strstr($body_classes,'section-node-edit')): ?>
+      <a id="homelink" href="<?php print $front_page ?>" title="<?php print t('Home'); ?>" rel="home"><span>Cancel</span></a>
+    <?php endif; ?>
+	  
+	  <?php if ($title): ?>
+        <h1 class="title"><?php print $title; ?></h1>
+      <?php endif; ?>
+	  <?php if ($tabs && !$title): ?>
+        <div class="tabs"><?php print $tabs; ?></div>
+      <?php endif; ?>
+	  
+	  <?php if ($header): ?>
+        <div id="header-region">
+          <?php print $header; ?>
+        </div>
+      <?php endif; ?>
+	  <?php if (!empty($primary_links)){ print theme('links', $primary_links, array('id' => 'primary', 'class' => 'links main-menu')); } ?>
+       
+
+    </div> <!-- /header -->
+
+
     </div> <!-- /page -->
     <?php print $closure; ?>
   </body>

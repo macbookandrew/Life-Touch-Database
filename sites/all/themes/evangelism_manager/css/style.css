@@ -152,14 +152,16 @@ div.status {
   border-color: #be7;
 }
 
-#header {
+#header,
+#header-bottom {
   background-color: #6e89ae;
   position: relative;
   padding: 5px 0px 5px 20px;
   height: 29px;
 }
 
-#header .title {
+#header .title,
+#header-bottom .title {
   color: #FFFFFF;
   padding: 0px;
   line-height: 1.6em;
@@ -236,7 +238,8 @@ div.status {
 
 
 
-#header ul#primary {
+#header ul#primary,
+#header-bottom ul#primary {
   margin: 0;
   padding: 0 0 0 0;
   border-width: 0;
@@ -247,13 +250,15 @@ div.status {
   
 }
 
-#header ul#primary li {
+#header ul#primary li,
+#header-bottom ul#primary li {
   float: left;
   margin: 0;
   padding: 0;
 }
 
-#header ul#primary li {
+#header ul#primary li,
+#header-bottom ul#primary li {
   background:url("images/icons.png") no-repeat scroll 1px -85px transparent;
   border-width:0;
   color:#E0E0E0;
@@ -265,7 +270,8 @@ div.status {
   text-decoration:none;
 }
 
-#header ul#primary li a {
+#header ul#primary li a,
+#header-bottom ul#primary li a {
   background:url("images/icons.png") no-repeat scroll right -85px #6e89ae;
   border-width:0;
   color:#E0E0E0;
@@ -277,19 +283,23 @@ div.status {
   text-decoration:none;
 }
 
-#header ul#primary li:hover {
+#header ul#primary li:hover,
+#header-bottom ul#primary li:hover {
   border-width: 0;
   background-color: transparent;
   background: url(images/icons.png) no-repeat 1px -85px;
 }
 
-#header ul#primary li:hover a{
+#header ul#primary li:hover a,
+#header-bottom ul#primary li:hover a {
   background: url(images/icons.png) no-repeat right -85px;
   background-color: #6e89ae;
 }
 
-#header ul#primary li.active ,
-#header ul#primary li.active:hover {
+#header ul#primary li.active,
+#header ul#primary li.active:hover,
+#header-bottom ul#primary li.active,
+#header-bottom ul#primary li.active:hover {
   border-width: 0;
   color: #000;
   background-color: transparent;
@@ -297,12 +307,15 @@ div.status {
 }
 
 #header ul#primary li.active  a,
+#header ul#primary li.active:hover a,
+#header-bottom ul#primary li.active  a,
 #header ul#primary li.active:hover a {
   background: url(images/icons.png) no-repeat right -85px;
   background-color: #7091AB;
 }
 
-#header ul#primary li.active {
+#header ul#primary li.active,
+#header-bottom ul#primary li.active {
   display: none;
 }
 
@@ -913,6 +926,10 @@ padding:0;
 
 #footer ul.links li {
 padding:0 6px 0 0;
+}
+
+#bottom-tabs ul {
+  background-color: #6e89ae;
 }
 
 .tabs ul.primary li a {
