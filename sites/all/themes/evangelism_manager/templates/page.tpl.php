@@ -16,11 +16,16 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="application-name" content="Lifetouch"/>
     <meta name="description" content="LBC Lifetouch database"/>
-    <link rel="icon" href="SHL-icon32x32.png" sizes="32x32"/>
-    <link rel="icon" href="SHL-icon48x48.png" sizes="48x48"/>
-    <link rel="apple-touch-startup-image" href="/startup.png" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-	<!-- link rel="shortcut icon" href="SHL-icon16x16.ico" / -->
+    <link rel="icon" href="icons/SHL-icon-16x16.png" sizes="16x16"/>
+    <link rel="icon" href="icons/SHL-icon-32x32.png" sizes="32x32"/>
+    <link rel="icon" href="icons/SHL-icon-48x48.png" sizes="48x48"/>
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-72x72.png" sizes="114x114" />
+    <link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-114x114.png" sizes="114x114" />
+    <link rel="apple-touch-startup-image" href="icons/startup-screen-320x480.png" />
+    <link rel="apple-touch-startup-image" href="icons/startup-screen-640x960.png" sizes="640x960" />
+    <link rel="apple-touch-startup-image" href="icons/startup-screen-748x1024.png" sizes="1024x748" />
+    <link rel="apple-touch-startup-image" href="icons/startup-screen-1004x768.png" sizes="768x1004" />
 
   </head>
 
