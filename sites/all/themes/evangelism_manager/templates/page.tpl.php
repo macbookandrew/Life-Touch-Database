@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-72x72.png" sizes="114x114" />
     <link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-114x114.png" sizes="114x114" />
-    <link rel="apple-touch-startup-image" href="icons/startup-screen-320x480.png" />
+    <link rel="apple-touch-startup-image" href="icons/startup-screen-320x460.png" />
     <link rel="apple-touch-startup-image" href="icons/startup-screen-640x960.png" sizes="640x960" />
     <link rel="apple-touch-startup-image" href="icons/startup-screen-748x1024.png" sizes="1024x748" />
     <link rel="apple-touch-startup-image" href="icons/startup-screen-1004x768.png" sizes="768x1004" />
