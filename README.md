@@ -3,9 +3,9 @@
 ##Description
 This is a snapshot of an app build on the Drupal content management framework. For system requirements, installation troubleshooting, and other help, go to http://drupal.org  
 The only custom code is found in:  
-    * `/sites/all/modules/lt_student`  
-    * `/sites/all/themes/evangelism_manager`  
-    * `/sites/all/themes/evangelism_manager_admin`  
+* `/sites/all/modules/lt_student`
+* `/sites/all/themes/evangelism_manager`
+* `/sites/all/themes/evangelism_manager_admin`  
 All other code is from the http://drupal.org website.
 
 ##Requirements and Recommendations
@@ -18,10 +18,9 @@ Note: This app will be slow if you do not have the [APC php module] (http://php.
 2. Create a MySQL database using the sql file snapshot from the root directory.
 3. Edit `/sites/default/settings.php` line 92 with the credentials for your database.
 4. You should now be able to access the site.
-5. Log in as:  
-    * `username: admin`  
-    * `password: password`  
-
+5. Log in as:
+* `username: admin`  
+* `password: password`  
 This is the super user account. Use this account only for changing system configurations.
 
 ##Customization
