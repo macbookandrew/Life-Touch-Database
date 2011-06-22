@@ -1,3 +1,4 @@
+/* @override http://lifetouch.minionsformissions.com/sites/all/themes/evangelism_manager/css/style.css?Q */
 
 /** Font styles 
 ---------------------------------*/
@@ -162,9 +163,11 @@ div.status {
 
 #header .title,
 #header-bottom .title {
-  color: #FFFFFF;
+  color: #E0E0E0;
   padding: 0px;
   line-height: 1.6em;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 #topbutton {
