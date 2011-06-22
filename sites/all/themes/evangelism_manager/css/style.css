@@ -1037,6 +1037,10 @@ html.js fieldset.collapsible .fieldset-wrapper {
 	padding-top: 5px;
 }
 
+#page .classlinks {
+	margin-top: 11px;
+}
+
 #page .classlinks a {
 	display: block;
 	text-align: center;
