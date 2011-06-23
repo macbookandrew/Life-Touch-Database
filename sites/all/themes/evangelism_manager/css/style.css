@@ -12,7 +12,7 @@ body {
 * Setting up font size, leading and font family
    * http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography
    */
-  font: 15px/1.3em "Helvetica Neue", helvetica, Arial, sans-serif;
+  font: 15px/1.3em "Helvetica Neue", Helvetica, Arial, sans-serif;
 	letter-spacing: 0.03em;
 	height: 100%;
 	background-color: #E0E0E0;
@@ -212,8 +212,8 @@ div.status {
 #header-bottom {
 	background-color: #6e89ae;
 	position: relative;
-	padding: 5px 0px 5px 20px;
-	height: 29px;
+	padding: 5px 80px 5px 20px;
+	min-height: 29px;
 }
 
 #header .title,
@@ -782,7 +782,7 @@ a.recordedit:hover {
 	font-weight: normal;
 	letter-spacing: 0.03em;
 	line-height: 1.6em !important;
-	width: 100%;
+	width: 99%;
 	padding-left: 2px;
 }
 
@@ -1001,8 +1001,7 @@ fieldset.group-point-of-contact {
 }
 
 #page input#edit-name {
-	height: 20px;
-	line-height: 20px !important;
+	min-height: 23px;
 }
 
 .view-id-last_week_no_contact .views-field-title {
