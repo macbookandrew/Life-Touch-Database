@@ -1072,7 +1072,7 @@ html.js fieldset.collapsible .fieldset-wrapper {
 }
 
 tr.even td.views-field-field-photo-fid, tr.odd td.views-field-field-photo-fid {
-	padding: 0px 0px;
+	padding: 5px 0px 5px 5px;
 	line-height: 0;
 }
 
